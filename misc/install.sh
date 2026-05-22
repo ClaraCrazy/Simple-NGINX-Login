@@ -54,6 +54,7 @@ install_backend_dependencies() {
     echo "Installing backend dependencies..."
     cd /opt/auth-backend
     npm install
+    cd -
     echo "Backend dependencies installed."
 }
 

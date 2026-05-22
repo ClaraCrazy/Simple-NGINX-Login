@@ -37,8 +37,8 @@ A cozy and secure login page to be used with nginx, in this case for my cage-cam
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/ClaraCrazy/Simple-Nginx-Login.git
-   cd Simple-Nginx-Login
+   git clone https://github.com/ClaraCrazy/Simple-NGINX-Login.git
+   cd Simple-NGINX-Login
    ```
 
 2. **Edit the login page**
@@ -78,7 +78,7 @@ A cozy and secure login page to be used with nginx, in this case for my cage-cam
 3. **Run the installation script**
 
    ```bash
-   sudo bash install.sh
+   sudo bash misc/install.sh
    ```
 
 <br>

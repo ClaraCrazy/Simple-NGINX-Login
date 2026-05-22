@@ -3,13 +3,13 @@ Description=Auth Page Backend Service
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/node /opt/auth-page-backend/server.js
-WorkingDirectory=/opt/auth-page-backend
+ExecStart=/usr/bin/node /opt/auth-backend/server.js
+WorkingDirectory=/opt/auth-backend
 Restart=always
 User=www-data
 Group=www-data
 Environment=NODE_ENV=production
-EnvironmentFile=/opt/auth-page-backend/.env
+EnvironmentFile=/opt/auth-backend/.env
 
 [Install]
 WantedBy=multi-user.target
